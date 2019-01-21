@@ -5,6 +5,7 @@ import Title from '../src/Title';
 import LightSwitch from '../src/LightSwitch';
 import UserComponent from '../src/UserComponent';
 import UserBoard from '../src/UserBoard';
+import Clock from '../src/Clock';
 
 class App extends Component {
 	render() {
@@ -29,6 +30,7 @@ class App extends Component {
 					<Title content="Some Title property coming from title.js component"/>
 					<LightSwitch />
 					<UserComponent />
+					<Clock />
 				</main>
 			</div>
 		);
